@@ -4,6 +4,7 @@
     if(!isset($_GET['codigo'])){
         header('Location: index.php?mensaje=error');
         exit();
+        open();
     }
 
     include_once 'model/conexion.php';
