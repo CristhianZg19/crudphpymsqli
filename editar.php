@@ -4,7 +4,7 @@
     if(!isset($_GET['codigo'])){
         header('Location: index.php?mensaje=error');
         exit();
-        open();
+        SAMGORDITA();
     }
 
     include_once 'model/conexion.php';
